@@ -1,0 +1,48 @@
+<!--
+    Creates a table with given data of students and their marks.
+    The 'Total' button when pressed, adds a column containing the total marks of each student.
+    The 'Percentage' button is enabled only after the total has been calculated, and it adds a column
+    containing the percentage marks out of 500, of each student.
+    Both buttons can be clicked only once.
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<link rel="stylesheet" href="hotel-style.css"/>
+
+<!-- <link rel="stylesheet" href="hotel-style2.css"/>-->
+
+</head>
+
+<body>
+
+<div class="container">
+  
+  <table></table>
+
+  <div id="pdiv">
+    <div id="mydiv2">
+      <div id="total"> 0 </div>
+      <div id="discinp"> <input id="disc" type="number" value="0" name="Discount" oninput="applyDisc()"/> % </div>
+      <div id="discamt"> 0 </div>
+      <div id="netprice"> 0 </div>
+    </div>
+    <div id="mydiv1">
+      <div id="d1">Total: </div>
+      <div id="d2"> Discount: </div>
+      <div id="d3"> Discount Amount: </div>
+      <div id="d4"> Net Total: </div>
+    </div>
+
+  </div>
+
+</div>
+
+<script src="hotel-script.js"> </script>
+
+</body>
+
+</html>

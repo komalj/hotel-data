@@ -1,0 +1,48 @@
+
+
+table {
+    border-collapse: collapse;
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+td, th, tr {
+    border: 1px solid black;
+    text-align: right;
+    padding: 10px;
+    font-size: 20px;
+}
+
+th {
+  text-align: left;
+}
+
+
+
+.container {
+  font-size: 20px;
+
+}
+
+#pdiv {
+  width: 500px;
+  margin: 0 auto;
+}
+
+#mydiv1, #mydiv2 {
+    display: inline-block;
+    text-align: right;
+    float: right;
+}
+
+
+input {
+    border: 1px solid black;
+    width: 50px;
+    padding: 5px;
+    margin: 10px
+    font-size: 25px;
+    text-align: right;
+}
